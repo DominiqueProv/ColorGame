@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Work+Sans:200,700&display=swap" rel="stylesheet">
+
+    <title>Color Game</title>
+</head>
+
+<body>
+    <div class="main">
+        <div id="header" class="header">
+            <img src="./Assets/icon" alt="logo" width="80px">
+            <h1>The color game</h1> <br>
+            <p id="textIntro"> Look at the <span class=bold>rgb(code)</span> and find the matching color </p>
+            <h2 class="color-code" id="colorDisplay">RGB</h2>
+            <a href="https://www.rapidtables.com/web/color/RGB_Color.html" target="blank">Get a hint </a>
+
+        </div>
+        <div class="rainbow"></div>
+
+        <div class="menu" id="stripe">
+            <div>
+                <button class="new-colors" id="reset">Give me new colors</button>
+            </div>
+            <div>
+                <button class="mode">Easy</button>
+                <button class="mode selected" class="selected">Hard</button>
+            </div>
+        </div>
+        <div id="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <div class="result">
+            <span class="win" id="message"></span>
+        </div>
+
+    </div>
+    <div class="footer">
+        <p>Made with ♥️ by Dominique Provencher</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
