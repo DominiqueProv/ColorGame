@@ -2,7 +2,7 @@
 
 ## Find the color matching the RGB code 
 
-![Color Game UI](/assets/color-game-UI.jpg)
+![Color Game UI](/Assets/color-game-UI.jpg)
 
 ##### Features
 
